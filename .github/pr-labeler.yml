@@ -5,7 +5,7 @@ fix:
     - title: '^fix(\([^)]+\))?:'
 
 documentation:
-    - title: '^docs(\([^)]+\))?:'
+    - title: '^cicd(\([^)]+\))?:'
 
 style:
     - title: '^style(\([^)]+\))?:'

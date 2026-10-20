@@ -40,7 +40,7 @@ autolabeler:
           - '^bug(\(.*\))?:'
     - label: 'documentation'
       regex:
-          - '^docs(\(.*\))?:'
+          - '^cicd(\(.*\))?:'
     - label: 'style'
       regex:
           - '^style(\(.*\))?:'

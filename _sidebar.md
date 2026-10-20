@@ -5,7 +5,6 @@
     - [ADR - Décisions Techniques](docs/adr/01.registre_decisions)
 
 - 🎨 Frontend Angular
-    - [Conventions GitOps](docs/frontend/00.conventions_gitops)
     - [Architecture et Styles](docs/frontend/01.architecture_frontend_et_styles)
     - [Design System](docs/frontend/02.design_system)
     - [Architecture Technique (RBAC)](docs/frontend/03.architecture_technique-rbac)
@@ -23,6 +22,7 @@
     - [Moteur Analytique (DuckDB)](docs/lakehouse/02.duckdb_zero_etl)
 
 - 🚀 DevOps & CI/CD
+    - [Conventions GitOps](docs/cicd/00.conventions_gitops)
     - [Gouvernance et Workflows](docs/cicd/01.gouvernance_github)
     - [Infrastructure VPS & Docker](docs/cicd/02.infrastructure_vps)
 

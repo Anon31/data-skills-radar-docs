@@ -1,6 +1,6 @@
 - [Accueil](/)
 - Frontend
-    - [Conventions GitOps](frontend/00._conventions_gitops.md)
-    - [Architecture](frontend/01._architecture_frontend_et_st.md)
+    - [Conventions GitOps](frontend/00.conventions_gitops.md)
+    - [Architecture](frontend/01.architecture_frontend_et_styles.md)
 - API Backend
-    - [Guide de Démarrage](api/guide_demarrage_api.md)
+    - [Guide de Démarrage](api/01.guide_demarrage_api.md)

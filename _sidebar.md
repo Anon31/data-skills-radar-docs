@@ -1,13 +1,30 @@
 - [Accueil](/)
 
-- Frontend
-    - [Conventions GitOps](frontend/00.conventions_gitops.md)
-    - [Architecture et Styles](frontend/01.architecture_frontend_et_styles.md)
-    - [Design System](frontend/02.design_system.md)
-    - [Architecture Technique (RBAC)](frontend/03.architecture_technique-rbac.md)
-    - [Spécifications UI](frontend/04.specifications_interface_utilisateur.md)
-    - [Layout Architecture](frontend/05.layout-architecture.md)
-    - [CI/CD Architecture](frontend/06.ci-cd-architecture.md)
+- 🌍 Architecture Globale
+    - [Vue d'ensemble du Système](docs/architecture/01.vue_ensemble)
+    - [ADR - Décisions Techniques](docs/adr/01.registre_decisions)
 
-- API Backend
-    - [Guide de Démarrage](api/01.guide_demarrage_api.md)
+- 🎨 Frontend Angular
+    - [Conventions GitOps](docs/frontend/00.conventions_gitops)
+    - [Architecture et Styles](docs/frontend/01.architecture_frontend_et_styles)
+    - [Design System](docs/frontend/02.design_system)
+    - [Architecture Technique (RBAC)](docs/frontend/03.architecture_technique-rbac)
+    - [Spécifications UI](docs/frontend/04.specifications_interface_utilisateur)
+    - [Layout Architecture](docs/frontend/05.layout-architecture)
+    - [CI/CD Architecture](docs/frontend/06.ci-cd-architecture)
+
+- ⚙️ API Backend (NestJS)
+    - [Guide de Démarrage](docs/api/01.guide_demarrage_api)
+    - [Modèle de Données (Prisma)](docs/api/02.modele_donnees)
+    - [Authentification & Sécurité (Vault)](docs/api/03.securite_auth)
+
+- 🐘 Data Lakehouse (PySpark)
+    - [Architecture Medallion](docs/lakehouse/01.architecture_medallion)
+    - [Moteur Analytique (DuckDB)](docs/lakehouse/02.duckdb_zero_etl)
+
+- 🚀 DevOps & CI/CD
+    - [Gouvernance et Workflows](docs/cicd/01.gouvernance_github)
+    - [Infrastructure VPS & Docker](docs/cicd/02.infrastructure_vps)
+
+- 📚 Guide de Contribution
+    - [Comment rédiger la doc ?](docs/00.guide_docsify)

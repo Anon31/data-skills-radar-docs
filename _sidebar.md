@@ -16,6 +16,7 @@
     - [Guide de Démarrage](docs/api/01.guide_demarrage_api)
     - [Modèle de Données (Prisma)](docs/api/02.modele_donnees)
     - [Authentification & Sécurité (Vault)](docs/api/03.securite_auth)
+    - [Infrastructure PostgreSQL & Prisma](docs/api/04.infrastructure-prisma-postgresql)
 
 - 🐘 Data Lakehouse (PySpark)
     - [Architecture Medallion](docs/lakehouse/01.architecture_medallion)

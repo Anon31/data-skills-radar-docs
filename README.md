@@ -1,4 +1,6 @@
-# 📚 Data Skills Radar - Central Documentation
+# 🎯 Data Skills Radar - Documentation Centrale
+
+[![Accès au Portail Web](https://img.shields.io/badge/📖_Portail_Web-Cliquez_ici-181717?style=for-the-badge&logo=github&color=007ec6)](https://anon31.github.io/data-skills-radar-docs/#/)
 
 Welcome to the centralized documentation repository for the Data Skills Radar project.
 This repository contains the architecture decisions (ADRs), system designs, and global technical guidelines for the entire Decision Support System (DSS).

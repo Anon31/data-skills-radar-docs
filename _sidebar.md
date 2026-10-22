@@ -13,10 +13,9 @@
     - [CI/CD Architecture](docs/frontend/06.ci-cd-architecture)
 
 - ⚙️ API Backend (NestJS)
-    - [Guide de Démarrage](docs/api/01.guide_demarrage_api)
-    - [Modèle de Données (Prisma)](docs/api/02.modele_donnees)
-    - [Authentification & Sécurité (Vault)](docs/api/03.securite_auth)
-    - [Infrastructure PostgreSQL & Prisma](docs/api/04.infrastructure-prisma-postgresql)
+    - [Guide de Démarrage](docs/api/01_guide_demarrage)
+    - [Modèle de Données (Prisma)](docs/api/02_architecture_et_securite)
+    - [Authentification & Sécurité (Vault)](docs/api/03_base_de_donnees_oltp)
 
 - 🐘 Data Lakehouse (PySpark)
     - [Architecture Medallion](docs/lakehouse/01.architecture_medallion)

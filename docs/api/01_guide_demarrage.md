@@ -81,5 +81,5 @@ npm run start:dev
 
 L'API intègre une documentation OpenAPI 3.0 générée dynamiquement, ainsi qu'une collection d'environnement Postman préconfigurée.
 
-*   **Swagger UI (Local) :** [http://localhost:3000/api/v1](http://localhost:3000/api/v1)
+*   **Swagger UI (Local) :** [http://localhost:3000/api](http://localhost:3000/api)
 *   **Collection Postman :** Configurez la variable d'environnement `{{base_url}}` sur `http://localhost:3000/api/v1`. Un script de test est intégré sur la route `POST /auth/login` pour capturer automatiquement le `access_token` et l'injecter dans la variable globale `jwt_token`, déverrouillant ainsi les routes protégées par rôle (ADMIN, USER).

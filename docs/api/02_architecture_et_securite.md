@@ -11,7 +11,7 @@ Le projet suit une organisation stricte par domaine, facilitant la maintenabilit
 *   **`src/prisma/`** : Module isolé responsable de la connexion à la base de données via le pool natif `pg`.
 *   **`src/modules/`** : Domaines métiers isolés. Chaque dossier (`auth/`, `users/`) encapsule ses propres contrôleurs, services, DTOs et stratégies.
 
-![Architecture API](../assets/architecture-api.png)
+![Architecture API](../assets/img/architecture-api.png)
 
 ```mermaid
 graph TD

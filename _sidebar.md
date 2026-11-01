@@ -19,8 +19,9 @@
     - [Authentification & Sécurité (Vault)](docs/api/03_base_de_donnees_oltp)
 
 - 🐘 Data Lakehouse (PySpark)
-    - [Architecture Medallion](docs/lakehouse/01.architecture_medallion)
-    - [Moteur Analytique (DuckDB)](docs/lakehouse/02.duckdb_zero_etl)
+    - [1. Architecture Medallion](docs/lakehouse/01.architecture_medallion)
+    - [2. Moteur Analytique (DuckDB)](docs/lakehouse/02.duckdb_zero_etl)
+    - [3. Guide Étape par Étape](docs/lakehouse/03.guide_etape_par_etape)
 
 - 🚀 DevOps & CI/CD
     - [Conventions GitOps](docs/cicd/00.conventions_gitops)

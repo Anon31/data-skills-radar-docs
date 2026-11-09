@@ -20,10 +20,12 @@
 
 - 🐘 Data Lakehouse (PySpark)
     - [1. Guide Étape par Étape](docs/lakehouse/01.guide_etape_par_etape)
-    - [2. APIs France Travail (Variable X)](docs/lakehouse/02.strategie_apis_francetravail)
-    - [3. APIs Open Data URSSAF (Variable Y)](docs/lakehouse/03.strategie_apis_urssaf)
-    - [4. Architecture Medallion](docs/lakehouse/04.architecture_medallion)
-    - [5. Moteur Analytique (DuckDB)](docs/lakehouse/05.duckdb_zero_etl)
+    - [2. APIs France Travail (Offres & ROME)](docs/lakehouse/02.strategie_apis_francetravail)
+    - [3. Écosystème INSEE (Base SIRENE V4)](docs/lakehouse/03.strategie_apis_insee_sirene)
+    - [4. Écosystème URSSAF (Open Data)](docs/lakehouse/04.strategie_apis_urssaf)
+    - [5. Écosystème OCDE & Rapports IA](docs/lakehouse/05.ecosysteme_ocde_et_rapports_ia)
+    - [6. Architecture Medallion](docs/lakehouse/06.architecture_medallion)
+    - [7. Moteur Analytique (DuckDB)](docs/lakehouse/07.duckdb_zero_etl)
 
 - 🚀 DevOps & CI/CD
     - [Conventions GitOps](docs/cicd/00.conventions_gitops)

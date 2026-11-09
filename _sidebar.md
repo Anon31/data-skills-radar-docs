@@ -3,6 +3,7 @@
 - 🌍 Architecture Globale
     - [Vue d'ensemble du Système](docs/architecture/01.vue_ensemble)
     - [ADR - Décisions Techniques](docs/adr/01.registre_decisions)
+    - [Lexique Métier & Technique](docs/architecture/02.lexique_metier_et_technique)
 
 - 🎨 Frontend Angular
     - [Architecture & Fondations](docs/frontend/01.architecture_frontend_et_styles)

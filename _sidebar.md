@@ -27,6 +27,8 @@
     - [5. Écosystème OCDE & Rapports IA](docs/lakehouse/05.ecosysteme_ocde_et_rapports_ia)
     - [6. Architecture Medallion](docs/lakehouse/06.architecture_medallion)
     - [7. Moteur Analytique (DuckDB)](docs/lakehouse/07.duckdb_zero_etl)
+    - [8. Métriques & Pièges à Éviter](docs/lakehouse/08.catalogue_metriques_et_pieges)
+    - [9. Protocole de Tests Statistiques](docs/lakehouse/09.protocole_tests_statistiques)
 
 - 🚀 DevOps & CI/CD
     - [Conventions GitOps](docs/cicd/00.conventions_gitops)

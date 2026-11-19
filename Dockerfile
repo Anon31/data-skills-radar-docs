@@ -6,7 +6,7 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copie de la documentation Docsify (index.html, _sidebar.md, README.md, docs/, assets/img/...)
 COPY . /usr/share/nginx/html
 
-# Configuration Nginx optimisée pour Docsify (Gzip sur Markdown + routage propre)
+# Configuration Nginx optimisée pour Docsify (Gzip sur Markdown + vraie 404 pour le fallback _sidebar.md)
 RUN echo 'server { \
     listen 80; \
     gzip on; \
@@ -14,7 +14,7 @@ RUN echo 'server { \
     location / { \
         root /usr/share/nginx/html; \
         index index.html; \
-        try_files $uri $uri/ /index.html; \
+        try_files $uri $uri/ =404; \
     } \
 }' > /etc/nginx/conf.d/default.conf
 

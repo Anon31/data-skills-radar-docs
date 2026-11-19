@@ -85,17 +85,17 @@ graph TD
     Spark -->|Ecriture Parquet Silver & Gold| Iceberg
 
     %% Moteur Analytique Zero-ETL
-    Iceberg -->|Lecture directe Couche Gold (dsr-gold-s3)| Duck
+    Iceberg -->|Lecture directe Couche Gold : dsr-gold-s3| Duck
 
     %% API comme Chef d'Orchestre
-    UI -->|HTTPS /api/v1 (Zero-CORS)| API
+    UI -->|HTTPS /api/v1 - Zero-CORS| API
     API -->|Pool natif pg & Prisma 7| PG
-    API -.->|Auth AppRole (RoleID/SecretID) en RAM| Vault
+    API -.->|Auth AppRole RoleID/SecretID en RAM| Vault
     API -->|Requetes SQL Analytiques| Duck
 
     %% Gouvernance & Documentation
-    Doc -.->|Documente & Deploie (GHCR / SSH)| API
-    Doc -.->|Documente & Deploie (GHCR / SSH)| UI
+    Doc -.->|Documente & Deploie via GHCR / SSH| API
+    Doc -.->|Documente & Deploie via GHCR / SSH| UI
     Doc -.->|Documente ADR & Protocole Statistique| Spark
 ```
 

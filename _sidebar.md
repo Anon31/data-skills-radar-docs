@@ -16,8 +16,8 @@
 
 - ⚙️ API Backend (NestJS)
     - [Guide de Démarrage](docs/api/01_guide_demarrage)
-    - [Modèle de Données (Prisma)](docs/api/02_architecture_et_securite)
-    - [Authentification & Sécurité (Vault)](docs/api/03_base_de_donnees_oltp)
+    - [Architecture & Sécurité (Vault)](docs/api/02_architecture_et_securite)
+    - [Modèle de Données (Prisma OLTP)](docs/api/03_base_de_donnees_oltp)
 
 - 🐘 Data Lakehouse (PySpark)
     - [1. Guide Étape par Étape](docs/lakehouse/01.guide_etape_par_etape)
@@ -30,10 +30,14 @@
     - [8. Métriques & Pièges à Éviter](docs/lakehouse/08.catalogue_metriques_et_pieges)
     - [9. Protocole de Tests Statistiques](docs/lakehouse/09.protocole_tests_statistiques)
 
-- 🚀 DevOps & CI/CD
-    - [Conventions GitOps](docs/cicd/00.conventions_gitops)
-    - [Gouvernance et Workflows](docs/cicd/01.gouvernance_github)
-    - [Infrastructure VPS & Docker](docs/cicd/02.infrastructure_vps)
+- 🚀 DevOps, Cloud & Exploitation
+    - [0. Conventions GitOps](docs/cicd/00.conventions_gitops)
+    - [1. Gouvernance GitHub & Rulesets](docs/cicd/01.gouvernance_github)
+    - [2. Fondations Cloud OVH (VPS & S3)](docs/cicd/02.infrastructure_vps)
+    - [3. Socle Zéro-Trust (Vault & SSH)](docs/cicd/03.socle_securite_zero_trust)
+    - [4. Usine CI/CD Backend & Nginx](docs/cicd/04.usine_logicielle_cicd_backend)
+    - [5. Déploiement Web (Angular & Docs)](docs/cicd/05.deploiement_interfaces_web)
+    - [6. Runbooks & Exploitation (MCO)](docs/cicd/06.runbooks_et_mco)
 
 - 📚 Guide de Contribution
     - [Comment rédiger la doc ?](docs/00.guide_docsify)
